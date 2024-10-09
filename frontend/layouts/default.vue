@@ -1,6 +1,6 @@
 <template>
-  <v-app>
-    <v-app-bar title="App bar"></v-app-bar>
+  <v-app class="app">
+    <app-bar />
 
     <!-- <v-navigation-drawer>
       <v-list>
@@ -13,3 +13,9 @@
     </v-main>
   </v-app>
 </template>
+
+<style>
+.app {
+  background: rgb(243 244 246) !important;
+}
+</style>
