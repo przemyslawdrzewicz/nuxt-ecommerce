@@ -6,6 +6,6 @@
 
 <script setup>
 const test = () => {
-  console.log("test");
-};
+  console.log('test')
+}
 </script>

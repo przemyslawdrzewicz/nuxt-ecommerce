@@ -1,14 +1,15 @@
-import vuetify from "vite-plugin-vuetify";
+import vuetify from 'vite-plugin-vuetify'
 
 export default defineNuxtConfig({
   build: {
-    transpile: ["vuetify"],
+    transpile: ['vuetify']
   },
 
   vite: {
-    plugins: [vuetify({ autoImport: true })],
+    plugins: [vuetify({ autoImport: true })]
   },
-  css: ["vuetify/styles"],
+  css: ['vuetify/styles'],
+  modules: ['@nuxt/eslint'],
 
-  compatibilityDate: "2024-10-09",
-});
+  compatibilityDate: '2024-10-09'
+})
